@@ -11,7 +11,7 @@ import java.nio.file.Path;
 @Service
 public class RecipeFileServiceImpl implements RecipeFileService {
 
-    @Value("${application.path.to.recipes}")
+    @Value("${application.path.to.Recipes}")
     private String dataFilePath;
 
     @Value("${nameRecipe.of.data.file}")
